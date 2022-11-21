@@ -1,5 +1,10 @@
-import { Options } from "$fresh/plugins/twind.ts";
-
+/** @type {import('$fresh/plugins/twind').Options} */
 export default {
-  selfURL: import.meta.url,
-} as Options;
+  theme: {
+    extend: {
+      colors: {
+        primary: "#2FD180",
+      },
+    },
+  },
+};
